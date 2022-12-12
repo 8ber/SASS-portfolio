@@ -1,0 +1,28 @@
+// Variables
+$siteWidth: 1280px;
+$mainColor: #c8f023;
+$darkColor: #050a30;
+$hardColor: #333;
+$midColor: #ccc;
+$lightColor: #f4f4f4;
+$bgImg: url("../img/showcase.jpg");
+//General
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  line-height: 1.3rem;
+  background-color: #fff;
+  color: $darkColor;
+}
+
+.lightBg {
+  background-color: $lightColor;
+}
+//Logo
+#logo {
+  width: 200px;
+  justify-self: end;
+}

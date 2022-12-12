@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Inquisitive and autodidact web developer with professional experience in a range of hands-on projects (front to back-end). I'm converting intellectual property into web applications using the latest web development technologies (MERN and FreMP stacks).
+    "
+    />
+    <meta
+      name="keywords"
+      content="Full stack web applications MERN React NodeJS Python flask socket Javascript CSS"
+    />
+    <script
+      src="https://kit.fontawesome.com/9306130a3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>
+      Eitan Bershtein // Full Stack Web Developer // coding ideas to apps //
+      MERN & FReMP
+    </title>
+  </head>
+  <body>
+    <nav>
+      <img src="img/logo.svg" alt="EitanBershtein" id="logo" />
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="current">Who IS?</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#" id="letstalk">Lets Talk.</a></li>
+      </ul>
+    </nav>
+
+    <div class="socialNarrow">
+      <a href="tel:(+972)52-567-7087" target="_blank"
+        ><i class="fa-solid fa-phone fa-2x"></i
+      ></a>
+
+      <a href="https://www.linkedin.com/in/eitanber/" target="_blank"
+        ><i class="fa-brands fa-linkedin fa-2x"></i
+      ></a>
+
+      <a href="mailto:eitan.bersh@gmail.com" target="_blank"
+        ><i class="fa-solid fa-envelope fa-2x"></i
+      ></a>
+
+      <a href="https://wa.me/+972525677087" target="_blank"
+        ><i class="fa-brands fa-whatsapp fa-2x"></i
+      ></a>
+
+      <a href="https://github.com/8ber" target="_blank"
+        ><i class="fa-brands fa-github fa-2x"></i
+      ></a>
+      <p>Phone</p>
+      <p>LinkedIn</p>
+      <p>E-mail</p>
+      <p>WhatsApp</p>
+      <p>GitHub</p>
+    </div>
+    <section id="aboutPage" class="text-center">
+      <div class="aboutContainer">
+        <div class="bgDark">
+          <h4>About Me</h4>
+        </div>
+        <div class="aboutGrid">
+          <img src="./img/about.png" alt="EitanBershtein" />
+
+          <p>
+            Inquisitive and autodidact web developer with professional
+            experience in a range of hands-on projects (front to back-end). I'm
+            converting intellectual property into web applications using the
+            latest web development technologies (MERN and FreMP stacks).
+            <br />
+            <br />
+            When I am not exposed to blue monitor light, I am an avid off-roader
+            (Go Jimny!) and scuba diver. I enjoy participating in team efforts
+            that leverage current knowledge of web development in ways that have
+            real impact. I am currently looking for the next fascinating project
+            to work on!
+          </p>
+          <canvas width="270px" height="190px" id="swirl">
+            <p>
+              <li><a href="">NodeJS</a></li>
+              <li><a href="">JavaScript</a></li>
+              <li><a href="">CSS</a></li>
+              <li><a href="">HTML</a></li>
+              <li><a href="">Python</a></li>
+              <li><a href="">React</a></li>
+              <li><a href="">Sass</a></li>
+              <li><a href="">Express</a></li>
+              <li><a href="">Flask</a></li>
+              <li><a href="">Sails</a></li>
+              <li><a href="">WebSocket</a></li>
+              <li><a href="">BootStrap</a></li>
+              <li><a href="">MongoDB</a></li>
+              <li><a href="">GraphQL</a></li>
+              <li><a href="">FireBase</a></li>
+              <li><a href="">Git</a></li>
+            </p>
+          </canvas>
+        </div>
+      </div>
+      <div class="socialWide">
+        <a href="tel:(+972)52-567-7087" target="_blank"
+          ><i class="fa-solid fa-phone fa-2x"></i
+        ></a>
+        <p>Phone</p>
+        <a href="https://www.linkedin.com/in/eitanber/" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-2x"></i
+        ></a>
+        <p>LinkedIn</p>
+        <a href="mailto:eitan.bersh@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope fa-2x"></i
+        ></a>
+        <p>E-mail</p>
+
+        <a href="https://wa.me/+972525677087" target="_blank"
+          ><i class="fa-brands fa-whatsapp fa-2x"></i
+        ></a>
+        <p>WhatsApp</p>
+        <a href="https://github.com/8ber" target="_blank"
+          ><i class="fa-brands fa-github fa-2x"></i
+        ></a>
+        <p>GitHub</p>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      var options = {
+        textColour: "#050a30",
+        textHeight: 12,
+        textAlign: "centre",
+        depth: 1.0,
+        initial: [0.25, -0.1],
+        noMouse: true,
+        maxBrightness: 1.0,
+        maxSpeed: 0.05,
+        radiusY: 1.0,
+        radiusZ: 1.0,
+        radiusX: 1.0,
+        textFont: "Fira Code, monospace",
+        repeatTags: 1,
+        shuffleTags: true,
+        shape: "sphere",
+      };
+      window.onload = function () {
+        try {
+          TagCanvas.Start("swirl", "", options);
+        } catch (e) {
+          // something went wrong, hide the canvas container
+          document.getElementById("aboutSwirl").style.display = "none";
+        }
+      };
+    </script>
+    <script src="js/tagcanvas.js" type="text/javascript"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/shakeyMenu.js"></script>
+  </body>
+</html>
