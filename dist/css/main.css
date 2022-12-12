@@ -89,6 +89,12 @@ ul {
     grid-template-columns: 1fr !important; } }
 
 @media screen and (max-width: 560px) {
+  .indexBG {
+    min-height: 85vh !important; }
+  nav ul {
+    display: flex !important; }
+    nav ul a {
+      padding: 0 !important; }
   .socialNarrow {
     width: 100% !important;
     z-index: 4;
