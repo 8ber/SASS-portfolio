@@ -268,7 +268,8 @@ header {
     bottom center/ cover;
 }
 .card.justgo {
-  background: url("https://github.com/8ber/JustGo/blob/main/SS.png") left/ cover;
+  background: url("https://raw.githubusercontent.com/8ber/JustGo/main/SS.png")
+    left/ cover;
 }
 .card.dungeon {
   background: url("https://user-images.githubusercontent.com/105231357/169797757-9458ca1b-7f9b-4a28-95ac-d48d46e7057a.png")
@@ -276,13 +277,16 @@ header {
 }
 .card.filmOpedia {
   background: url("https://user-images.githubusercontent.com/105231357/169792789-3c60ca9a-f713-42ac-b589-81623dde1f10.png")
-    left/ cover;
+    center/ cover;
 }
 .card.JSONporridge {
   background: url("https://user-images.githubusercontent.com/105231357/181480403-326e1c06-89cc-4dd3-9b79-5f06c1734f62.png")
-    left/ cover;
+    center/ cover;
 }
-
+.card.graphQL {
+  background: url("https://cdn.codersociety.com/uploads/graphql-reasons.png")
+    center/ cover;
+}
 .info:before {
   z-index: -1;
   display: block;
