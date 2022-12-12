@@ -123,7 +123,8 @@ ul {
   .aboutGrid {
     grid-template-areas: "img" "txt" "swirl" !important; }
   .container {
-    padding: 0 0.5rem !important; }
+    padding: 0 0.5rem !important;
+    padding-bottom: 3rem !important; }
     .container .cardsGrid {
       margin-top: 0 !important;
       margin-bottom: 0 !important; } }
