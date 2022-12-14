@@ -3,14 +3,14 @@
   nav {
     grid-template-areas:
       "logo"
-      "menu" !important;
-    padding-bottom: 0.5rem !important;
+      "menu";
+    padding-bottom: 0.5rem;
     #logo {
-      justify-self: center !important;
+      justify-self: center;
     }
     ul {
-      justify-self: center !important;
-      display: grid !important;
+      justify-self: center;
+      display: grid;
       grid-template-columns: repeat(4, 1fr);
       align-items: center;
       justify-items: center;
@@ -18,87 +18,87 @@
   }
   header {
     h1 {
-      font-size: 2rem !important;
+      font-size: 2rem;
     }
   }
   .aboutGrid {
     grid-template-areas:
       "img txt"
-      "swirl swirl" !important;
+      "swirl swirl";
     justify-items: center;
     P {
-      padding-right: 1.5rem !important;
+      padding-right: 1.5rem;
     }
   }
   .cardsGrid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 }
 
 // // Smartphones
 @media screen and (max-width: 560px) {
   .indexBG {
-    min-height: 85vh !important;
+    min-height: 85vh;
   }
   nav {
     ul {
-      display: flex !important;
+      display: flex;
       a {
-        padding: 0 !important;
+        padding: 0;
       }
     }
   }
   .socialNarrow {
-    width: 100% !important;
+    width: 100%;
     z-index: 4;
-    position: fixed !important;
-    right: 0px !important;
-    bottom: 0px !important;
-    display: grid !important;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
   }
   .socialWide {
-    display: none !important;
+    display: none;
   }
 
   #aboutPage {
-    padding: 0 !important;
+    padding: 0;
     img {
-      border-bottom: 2px #333 solid !important;
-      border-left: none !important;
-      border-right: none !important;
-      border-top: 1px solid $hardColor !important;
+      border-bottom: 2px #333 solid;
+      border-left: none;
+      border-right: none;
+      border-top: 1px solid $hardColor;
       padding-bottom: 0.5rem;
-      padding-right: 0 !important;
+      padding-right: 0;
       margin-top: 0.5rem;
-      margin-bottom: 0 !important;
-      margin-left: 1.5rem !important;
+      margin-bottom: 0;
+      margin-left: 1.5rem;
     }
     p {
-      padding: 0 1.5rem !important;
-      padding-top: 0.5rem !important;
+      padding: 0 1.5rem;
+      padding-top: 0.5rem;
     }
     #swirl {
-      width: 300px !important;
-      height: 250px !important;
-      padding: 0 !important;
-      padding-bottom: 4rem !important;
+      width: 300px;
+      height: 250px;
+      padding: 0;
+      padding-bottom: 4rem;
     }
   }
   .aboutGrid {
     grid-template-areas:
       "img"
       "txt"
-      "swirl" !important;
+      "swirl";
   }
   .container {
-    padding: 0 0.5rem !important;
-    padding-bottom: 3rem !important;
+    padding: 0 0.5rem;
+    padding-bottom: 3rem;
 
     .cardsGrid {
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
 }
@@ -106,26 +106,26 @@
 // // Smartphones with narrow screens (galaxy fold)
 @media screen and (max-width: 300px) {
   .socialNarrow {
-    width: 100% !important;
+    width: 100%;
     z-index: 4;
     position: fixed;
-    right: 0px !important;
-    bottom: 0px !important;
-    display: grid !important;
+    right: 0px;
+    bottom: 0px;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
   }
   .socialWide {
-    display: none !important;
+    display: none;
   }
 
   #aboutPage {
-    padding: 0 !important;
+    padding: 0;
     margin: auto;
 
     img {
-      width: 150px !important;
-      height: 150px !important;
+      width: 150px;
+      height: 150px;
     }
 
     #swirl {
